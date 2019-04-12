@@ -7,7 +7,7 @@
 # }
 
 {% block title %}
-  {{ config.title }} - {{ theme.description }}
+  {{ config.title }} | {{config.subtitle }} | {{ config.description }} | {{ config.keywords }}
 {% endblock %}
 
 {% block page_class %}
