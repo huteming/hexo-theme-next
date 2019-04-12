@@ -813,3 +813,7 @@ images: images
 
 # Theme version
 version: 5.1.4
+
+# 自定义页脚 "本文结束"
+passage_end_tag:
+  enabled: true
