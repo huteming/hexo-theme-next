@@ -7,7 +7,7 @@
 # }
 
 {% block title %}
-  {{ config.title }} | {{config.subtitle }} | {{ config.description }} | {{ config.keywords }}
+  {{ config.title }}{% if theme.index_with_subtitle and config.subtitle %} | {{config.subtitle }}{% endif %} | {{ config.description }} | {{ config.keywords }}
 {% endblock %}
 
 {% block page_class %}
